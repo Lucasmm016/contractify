@@ -1,5 +1,5 @@
 {
-  "name": "contractify",
+  "name": "@lucasmm016/contractify",
   "version": "1.0.0",
   "description": "Type-safe contract-based API client with Zod and code generation",
   "license": "MIT",
@@ -13,6 +13,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli.ts",
